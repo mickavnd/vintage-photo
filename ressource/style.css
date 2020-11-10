@@ -1,0 +1,141 @@
+/* page accueil
+=====================*/
+h1 {
+    font-size: 60PX;
+    color: #ffffff;
+    font-family:"lobster";
+}
+
+h2,
+h3 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px ;
+}
+
+header {
+    background-image: url(./image/pexels-photo-133070.jpeg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+.admin {
+
+    background-image: url(./image/pexels-ylanite-koppens-697662.jpg);
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header .container {
+    position: relative;
+    top: 150px;
+
+}
+
+.home-title h1,
+p {
+    text-align: center;
+
+}
+
+.p-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-btn {
+    display: block;
+
+
+}
+
+.btn {
+    border: 1px rgb(148, 132, 118) solid;
+    margin-right: 50Px;
+    background-color: rgb(221, 201, 180);
+}
+
+.btn:hover {
+    color: rgb(227, 227, 227);
+    background-color: teal;
+    transition: 1s;
+}
+
+.img-1 {
+    width: 200PX;
+    border-right: 1px black solid;
+
+}
+
+.search {
+    width: 85%;
+
+}
+
+.p-search .search {
+    position: relative;
+    left: 150px;
+    margin-top: 4px;
+}
+.p-img-3{
+    display: flex;
+    justify-content: flex-start;
+}
+.img-3{
+    width: 300px;
+    height: 300px;
+    border-radius: 600px;
+    border: 5px rgb(188, 172, 155) solid;
+    background: red;
+    transition:  2s;
+    margin: ;
+    
+}
+.img-3:hover{
+    transform: translateX(360px);
+
+}
+
+
+
+/*page2
+===============*/
+.img-2 {
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+}
+
+.aticle {
+    border: 2px black solid;
+    border-radius: 10Px;
+    margin-top: 10px;
+}
+
+.icon {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icone h4 {
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.p-button {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+
+
+}
+
