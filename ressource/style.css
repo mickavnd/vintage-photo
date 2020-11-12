@@ -3,14 +3,17 @@
 h1 {
     font-size: 60PX;
     color: #ffffff;
-    font-family:"lobster";
+    font-family: "lobster";
 }
 
 h2,
 h3 {
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 20px ;
+    margin-bottom: 20px;
+}
+h5{
+border-bottom: 1px white solid;
 }
 
 header {
@@ -67,6 +70,8 @@ p {
 .img-1 {
     width: 200PX;
     border-right: 1px black solid;
+    
+    border-radius: 10px 0 0 10px;
 
 }
 
@@ -80,23 +85,80 @@ p {
     left: 150px;
     margin-top: 4px;
 }
-.p-img-3{
+
+.p-img-3 {
     display: flex;
     justify-content: flex-start;
 }
-.img-3{
+
+.img-3 {
     width: 300px;
     height: 300px;
     border-radius: 600px;
     border: 5px rgb(188, 172, 155) solid;
     background: red;
-    transition:  2s;
-    margin: ;
-    
+    transition: 2s;
+    margin-top: 20px;
+
 }
-.img-3:hover{
+
+.img-3:hover {
     transform: translateX(360px);
 
+}
+
+.p-annonce {
+    display: flex;
+    justify-content: center;
+}
+
+.annonce-box {
+    border: 1px black solid;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.annonce-box h4 {
+    text-align: center;
+
+}
+
+.p-text-2 {
+    position: absolute;
+    right: 50px;
+}
+.img-5{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left:0px;
+    
+}
+.section-2{
+    margin-top: 20PX;
+    display: flex;
+    justify-content: center;
+    margin-bottom:40px;
+}
+.icone{
+  position: relative;
+  right: 30px;
+  top: 60px;
+}
+.icone-2{
+    position: relative;
+    left: 0px;
+    top: 60PX;
+}
+.p{
+    position: relative;
+    right: 120px;
+    top :120px;
+    color:white;
 }
 
 
@@ -138,15 +200,28 @@ button {
 
 
 }
- .label-1{
+
+.label-1 {
     position: absolute;
     left: 200px;
-   
 }
-.p-text{
-    
-    
+input{
+    width: 100%;
 }
-
-
+/* PIED PAGE
+==================*/
+footer {
+background-color: rgb(221, 201, 180);
+    margin-top: 10px;
+}
+ul li {
+    list-style: none;
+    color: white;
+    text-align: center;
+}
+.titre{
+    border-bottom:1px white solid;
+    text-align: center;
+    font-size: 20PX;
+}
 
