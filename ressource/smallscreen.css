@@ -1,0 +1,8 @@
+@media  (max-width: 720px){
+    .home-btn {
+       
+        margin-top: 10Px;
+        position: relative;
+        left: 160px;
+    }
+}

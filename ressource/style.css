@@ -152,7 +152,7 @@ p {
 .icone-2{
     position: relative;
     left: 0px;
-    top: 60PX;
+    top: 10PX;
 }
 .p{
     position: relative;
@@ -225,3 +225,92 @@ ul li {
     font-size: 20PX;
 }
 
+@media screen and (max-width: 720px){
+    
+    
+    header{  background-image: url(./image/pexels-photo-133070.jpeg);
+    background-size:cover;
+    height: 100vh;
+    background-position: center;
+    }
+    .p-btn{
+        display: block;
+        position: relative;
+        left: 150px;
+        
+    }
+    .btn{
+        margin-top: 10px;
+    
+    }
+    .p-search .search {
+        position: relative;
+        left: 10px;
+        margin-top: 4px;
+    }
+    .btn-10{
+        position: relative;
+        left: 120px;
+      
+    }
+    
+.img-3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 400px;
+    border: 5px rgb(188, 172, 155) solid;
+    background: red;
+    transition: 2s;
+    margin-top: 20px;
+    
+
+}
+    .img-3:hover {
+        transform: translateX(100px);
+    
+    }
+    P{
+        font-size: 10PX;
+    }
+    .img-5{
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left:0px;
+        display:flex; 
+    }
+    .lost{
+        display: none;
+    }
+    .vue{
+    position:relative;
+    left: 200px;
+    top:-100px;
+    }
+    .vue-2{
+         position: relative;
+         left:50px;
+
+    }
+    .icone{
+        position: relative;
+        right: 30px;
+        top: 35px;
+    }
+
+    .icone-2{
+        position: relative;
+        left: 250px;
+        top: -270PX;
+    }
+
+ footer{
+     margin-top: -250px;
+ }
+
+    
+
+}
